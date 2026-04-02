@@ -12,8 +12,8 @@ Extension thumbnails and documentation are under the MIT license.
 
 ## Submitting an extension
 
-### NOTE!
-Once submitted, your extension CANNOT be removed from the files. Your extension may be delisted, but the code must NEVER be removed.
+> [!NOTE]
+> Once submitted, your extension CANNOT be removed from the files. Your extension may be delisted, but the code must NEVER be removed.
 
 This is to prevent projects being broken. If we remove your code, anyone who used your extension will have to remake their ENTIRE project without editing their file manually.
 
@@ -22,15 +22,15 @@ Create your extension. You can find a lot of details [here](https://docs.turbowa
 
 #### Important Guidelines:
 - Your extension should not already exist on the gallery. Please check the
-[Pull Requests](https://github.com/PenguinMod/PenguinMod-ExtensionsGallery/pulls)
-and [Gallery page](https://extensions.penguinmod.com/) to confirm.
+[Pull Requests](https://github.com/TurtleMod-Team/TurtleMod-ExtensionsGallery/pulls)
+and [Gallery page](https://turtlemod-team.github.io/TurtleMod-ExtensionsGallery/) to confirm.
 - Your extension should be created for a specific purpose. An extension with random blocks someone might need will likely not get accepted if the blocks are not in a certain theme, like math or rendering.
 - Your extension should be easily explainable in 1-2 sentences or a single picture. This is what will determine whether you can be on the gallery or not.
 - Your extension should be under the MIT license or the LGPL-3.0 license.
     - See [Extension code licensing](#extension-code-licensing) for information.
 - If your extension uses external content such as JS libraries or CSS stylesheets, you must include them inside the extension code itself. You **CANNOT** fetch/import content from URLs that is a core part of your extension as it'll make the extension unusable offline, or in offline packaged projects. This does not apply to content that obviously requires internet, like an extension that allows projects to use a public API.
-- Your extension **CANNOT** be made entirely with AI or assistive tools such as TurboBuilder. You must understand the raw code your extension is running.
-- Your extension **CANNOT** rely on the use of any generative AI. This is mainly for extensions that respond to messages from AI like ChatGPT. Any extensions added before this rule are an exception.
+- Your extension may be made entirely with AI, but only if the AI is instructed to follow the TurtleMod extension format and you fully understand and verify the generated code.
+- Your extension may use or call any generative AI services at runtime. However, tools that automatically generate extensions for you (such as TurboBuilder or ExtForge) are NOT allowed. You must understand and verify all code included in your extension.
 - Your extension **CANNOT** reference or use any content from a website not suitable for ages 13+
 - Your extension **CANNOT** contain content not suitable for ages 10+ (including extension icon and extension code)
 - Your extension **CANNOT** contain discriminatory content or content that is against a certain group or minority
@@ -46,7 +46,7 @@ Ideally, this banner / thumbnail should be 600x300 pixels. (may be resized if it
 ### Step 3.
 Add your extension in the `static/extensions` folder.
 
-Open [this link](https://github.com/PenguinMod/PenguinMod-ExtensionsGallery/tree/main/static/extensions) in a new tab to open the folder.
+Open [this link](https://github.com/TurtleMod-Team/TurtleMod-ExtensionsGallery/tree/main/static/extensions) in a new tab to open the folder.
 
 Click `Add File` at the top and click `Create new file`.
 
