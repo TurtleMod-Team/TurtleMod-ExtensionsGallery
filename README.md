@@ -1,7 +1,7 @@
 # Extension Gallery
 
 ## Licensing
-The source for [the extensions site](https://extensions.penguinmod.com)
+The source for [the extensions site](https://turtlemod-team.github.io/TurtleMod-ExtensionsGallery)
 (including but not limited to: the source code, assets, extension thumbnails and extension documentation)
 are all licensed under [the MIT license](https://opensource.org/license/mit).
 
